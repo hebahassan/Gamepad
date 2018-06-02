@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <ImageView
+    android:id="@+id/imageView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:scaleY="2"
+    android:src="@drawable/banner" />
+
+    <ImageButton
+        android:id="@+id/home_imageButton1"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn5_background"/>
+
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_alignRight="@+id/home_imageButton1"
+        android:layout_alignTop="@+id/home_imageButton1"
+        android:layout_marginRight="33dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/white_gamepad" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/home_imageButton1"
+        android:layout_below="@+id/imageview1"
+        android:gravity="center"
+        android:text="Gamepad"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/home_imageButton5"
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:layout_alignTop="@+id/home_imageButton1"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/home_imageButton1"
+        android:background="@drawable/btn5_background" />
+    
+    <ImageView
+        android:id="@+id/imageview5"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_alignRight="@+id/home_imageButton5"
+        android:layout_alignTop="@+id/home_imageButton5"
+        android:layout_marginRight="33dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/white_settings" />
+    
+     <TextView
+        android:id="@+id/textView5"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/home_imageButton5"
+        android:layout_below="@+id/imageview5"
+        android:gravity="center"
+        android:text="Settings"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+     <ImageButton
+         android:id="@+id/home_imageButton3"
+         android:layout_width="140dp"
+         android:layout_height="120dp"
+         android:layout_marginLeft="25dp"
+         android:layout_marginTop="170dp"
+         android:background="@drawable/btn5_background" />
+     
+     <ImageView
+        android:id="@+id/imageview3"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_alignRight="@+id/home_imageButton3"
+        android:layout_alignTop="@+id/home_imageButton3"
+        android:layout_marginRight="33dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/white_mouse" />
+     
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/home_imageButton3"
+        android:layout_below="@+id/imageview3"
+        android:gravity="center"
+        android:text="Mouse"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+     <ImageButton
+         android:id="@+id/home_imageButton4"
+         android:layout_width="140dp"
+         android:layout_height="120dp"
+         android:layout_toRightOf="@+id/home_imageButton3"
+         android:layout_alignTop="@+id/home_imageButton3"
+         android:layout_marginLeft="30dp"
+         android:background="@drawable/btn5_background" />
+     
+     <ImageView
+        android:id="@+id/imageview4"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_alignRight="@+id/home_imageButton4"
+        android:layout_alignTop="@+id/home_imageButton4"
+        android:layout_marginRight="33dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/white_update" />
+     
+     <TextView
+        android:id="@+id/textView4"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/home_imageButton4"
+        android:layout_below="@+id/imageview4"
+        android:gravity="center"
+        android:text="Updates"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+     
+     <ImageButton
+         android:id="@+id/home_imageButton2"
+         android:layout_width="140dp"
+         android:layout_height="120dp"
+         android:layout_marginLeft="25dp"
+         android:layout_marginTop="310dp"
+         android:background="@drawable/btn5_background" />
+     
+     <ImageView
+        android:id="@+id/imageview2"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_alignRight="@+id/home_imageButton2"
+        android:layout_alignTop="@+id/home_imageButton2"
+        android:layout_marginRight="33dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/white_media" />
+     
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/home_imageButton2"
+        android:layout_below="@+id/imageview2"
+        android:gravity="center"
+        android:text="Media Player"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+     
+     <ImageButton
+         android:id="@+id/home_imageButton6"
+         android:layout_width="140dp"
+         android:layout_height="120dp"
+         android:layout_toRightOf="@+id/home_imageButton2"
+         android:layout_alignTop="@+id/home_imageButton2"
+         android:layout_marginLeft="30dp"
+         android:background="@drawable/btn5_background" />
+     
+     <ImageView
+        android:id="@+id/imageview6"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_alignRight="@+id/home_imageButton6"
+        android:layout_alignTop="@+id/home_imageButton6"
+        android:layout_marginRight="33dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/white_file" />
+     
+     <TextView
+        android:id="@+id/textView6"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/home_imageButton6"
+        android:layout_below="@+id/imageview6"
+        android:gravity="center"
+        android:text="File Manager"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+     <Button
+         android:id="@+id/helpbtn"
+         android:layout_width="250dp"
+         android:layout_height="40dp"
+         android:layout_marginTop="318dp" 
+         android:layout_marginLeft="35dp"
+         android:text="Help"
+         android:textColor="#ffffff"
+         android:textStyle="bold"
+         android:textSize="20sp"
+         android:background="@drawable/btn5_background"/>
+              
+
+     <ImageView
+         android:id="@+id/helpimg"
+         android:layout_width="wrap_content"
+         android:layout_height="40dp"
+         android:layout_alignBottom="@+id/helpbtn"
+         android:layout_alignRight="@+id/helpbtn"
+         android:background="@android:color/transparent"
+         android:scaleType="fitCenter"
+         android:src="@drawable/white_help" />
+    
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/btn5_background">
+    
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#ffffff"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:background="@drawable/btn5_background">
+    
+    <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"/>
+
+    <ImageButton
+        android:id="@+id/imageadd"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:background="@drawable/custom"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_add" />
+    
+    <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"/>
+    
+    <ImageButton
+        android:id="@+id/imagedelete"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:background="@drawable/custom"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_delete" />
+    
+    <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"/>
+    
+    <ImageButton
+        android:id="@+id/imagemove"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:background="@drawable/custom"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_move" />
+    
+    <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"/>
+    
+    <ImageButton
+        android:id="@+id/imageedit"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:background="@drawable/custom"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_show" />
+    
+    <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"/>
+    
+    <ImageButton
+        android:id="@+id/imagesave"
+        android:layout_width="201dp"
+        android:layout_height="80dp"
+        android:background="@drawable/custom"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_save" />
+    
+    <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff"/>
+    
+    </LinearLayout>
+    
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#ffffff"/>
+
+</LinearLayout>

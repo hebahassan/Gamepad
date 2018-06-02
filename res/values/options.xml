@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="options">
+        <item name="gamepad">Gamepad</item>
+        <item name="games">More Games</item>
+        <item name="mouse">Mouse</item>
+        <item name="setting">Settings</item>
+        <item name="help">Help</item>
+    </string-array>
+</resources>

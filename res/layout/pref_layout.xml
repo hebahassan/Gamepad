@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#D3D3D3D3" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:text=" Advanced Options"
+        android:gravity="center|left"
+        android:textSize="20sp"
+         android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/Bluetooth_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/drop_down2" />
+
+</LinearLayout>

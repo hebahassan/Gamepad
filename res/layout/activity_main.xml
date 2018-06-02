@@ -1,0 +1,19 @@
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+>
+</android.support.v4.view.ViewPager>
+
+<!-- 3amlnaha viewpager 3shan n3raf n3mel  transition through pages. -->
+
+<!-- ViewPagers have built-in swipe gestures to transition through pages, -->
+<!--  and they display screen slide animations by default, so you don't need to create any.  -->
+ 
+<!-- ViewPagers use PagerAdapters as a supply for new pages to display,  -->
+<!--  so the PagerAdapter will use the fragment class that you created earlier. -->
+<!--  ctrl+shift+c >> to comment -->
+<!--  ctrl+shift+f >> for formatting -->
+
+

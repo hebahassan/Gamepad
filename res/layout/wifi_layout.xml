@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="290dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#01091F">
+
+    <TextView
+        android:id="@+id/ipView"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="IP Server Address."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/ipText"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:textColor="#fff">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/portView"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="Port Number."
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/portText"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:text="@string/connect"
+        android:background="@drawable/btn5_background"/>
+
+</LinearLayout>

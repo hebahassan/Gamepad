@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gamepad"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <supports-screens 
+        android:resizeable="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true"/>
+  
+
+    <uses-sdk
+        android:minSdkVersion="14" 
+        android:targetSdkVersion="21" />
+    
+    <!--wifi permissions -->
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-feature android:name="android.hardware.wifi" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    
+    <!-- Database permissions -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!-- kda el mfrod a2al 7aga 4.0 -->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <!-- <activity
+            android:name=".Launcher"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> -->
+        
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Gamepad"
+            android:label="@string/app_name" 
+            android:screenOrientation="landscape">
+        </activity>
+        
+        <activity android:name="Mouse"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="Pdf"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        
+         <activity android:name="com.gamepad.Check"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        
+         <activity android:name="com.gamepad.about"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        
+                <activity android:name="bluetooth_Connection.BluetoothListActivity"
+                  android:label="@string/select_device"
+                  android:theme="@android:style/Theme.Dialog"
+                  android:screenOrientation="portrait"
+				  android:configChanges="keyboardHidden|orientation|screenSize"
+ />
+        
+        <activity android:name="Prefs"
+            android:label="@string/app_name"
+            android:theme="@style/prefTheme">
+        </activity>
+           
+        <activity android:name="FileManger"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name="Slideshow"
+            android:label="@string/app_name"></activity>
+                 <activity android:theme="@android:style/Theme.Dialog" 
+            android:name="gameBad_EDIT.list_activity">
+         </activity>
+        <activity android:theme="@android:style/Theme.Dialog" 
+            android:name="gameBad_EDIT.Buttons_choice">
+            </activity>
+        
+    </application>
+
+</manifest>

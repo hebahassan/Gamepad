@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:gamepad="http://gamepad.com">
+
+    <PreferenceCategory android:title="General Settings">
+        
+       <com.gamepad.SeekBarPreference
+           android:key="Vibration"
+           android:title="Vibration time"
+           android:defaultValue="17"
+           android:max="100"
+           gamepad:unitsRight="%"/>  
+           
+       <SwitchPreference
+            android:title="Vibration"
+            android:key="Vibrationswitch"
+            android:summary="Enable or disable vibration"
+            android:defaultValue="false"/>
+         <ListPreference
+            android:title="Mouse Speed"
+            android:key="listPref"
+            android:entries="@array/listArray"
+            android:entryValues="@array/listValues"
+                        android:defaultValue="0.5"
+             />
+       
+    </PreferenceCategory>
+
+</PreferenceScreen>

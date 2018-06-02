@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:title="Edit Gamepad"
+        android:id="@+id/menu_edit"
+        android:showAsAction="always|withText"
+        android:icon="@drawable/ic_settings"
+        android:numericShortcut="1"
+        android:alphabeticShortcut="a"/>
+    
+    <item android:title="Saved Gamepad"
+        android:id="@+id/menu_show"
+        android:showAsAction="always|withText"
+        android:icon="@drawable/ic_show"
+        android:numericShortcut="2"
+        android:alphabeticShortcut="b"/>
+
+</menu>

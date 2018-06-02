@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="titles">
+        <item name="general">General Settings</item>
+        <item name="gamepad">Gamepad Settings</item>
+        <item name="mouse">Mouse Settings</item>
+        <item name="language">Language Settings</item>
+    </string-array>
+    
+    <string-array name="descriptions">
+        <item name="des1">This is description 1</item>
+        <item name="des2">This is description 2</item>
+        <item name="des3">This is description 3</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#01091F">  
+    
+    <ImageView
+        android:id="@+id/touchView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/mouse_pad_1"
+        android:scaleType="centerCrop" 
+        android:scaleX="1.2"
+        android:scaleY="2.2"/> 
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#01091F" 
+        android:layout_marginTop="440dp"
+        android:orientation="horizontal" >
+        
+        <Button 
+            android:id="@+id/leftClick"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/btn3_background"/>
+        
+        <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:background="#000000"/>
+        
+        <Button
+            android:id="@+id/rightClick"
+            android:layout_width="175dp" 
+            android:layout_height="match_parent"
+            android:background="@drawable/btn3_background"/>
+        
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="70dp"
+        android:layout_height="440dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true">
+        
+        <ImageView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <TextView 
+            android:id="@+id/scrolltext"
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            android:layout_marginTop="25dp"
+            android:layout_alignLeft="@+id/scrollimg"
+            android:text=".\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n."
+            android:lineSpacingExtra="-15dp"
+            android:textColor="#7986CB"
+            android:textSize="35sp"
+            android:gravity="center|top"/>
+        
+        
+    </RelativeLayout>
+
+</RelativeLayout>
